@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /*background: url("../assets/background/checkerboard-cross.png") repeat;*/
+  font-size: 20px;
+  /*color: white;*/
+  font-family: PingFangSC-Light; /*苹果设计的一款全新的中文系统字体，该字体支持苹果的动态字体调节技术*/
+  /*height:100%;*/
+  /*margin: 0;*/
+}
+
+ul {
+  list-style: none;
+}
+li{
+  width: 100px;
+  float: left;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.elcontainer{
+  font-size:20px ;
+
+  height: 50px;
+  background-color: #b4bccc;
+}
+
+.nav-left{
+  margin: 0;
+  float:left;
+  height: 40px;
+}
+
+.el-menu{
+  border: 0;
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 8px; /*滚动条宽度*/
+  height: 8px; /*滚动条高度*/
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px; /*滚动条的背景区域的圆角*/
+  -webkit-box-shadow: inset 0 0 6px rgba(238,238,238, 0.3);
+  background-color: #eeeeee; /*滚动条的背景颜色*/
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px; /*滚动条的圆角*/
+  -webkit-box-shadow: inset 0 0 6px rgba(145, 143, 0143, 0.3);
+  background-color: rgb(145, 143, 143); /*滚动条的背景颜色*/
+}
+
+
